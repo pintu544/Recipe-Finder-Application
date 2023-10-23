@@ -1,41 +1,57 @@
-## Love Food App
+## Project Description
 
-A full stack web application that allows the user to browse within the Spoonacular recipe database, search for recipes based on a random search and filter recipes by diet and meal type.
+**Recipe-Finder-Application** is a React web application that allows users to browse the Spoonacular recipe database, search for recipes based on various criteria, and filter recipes by diet and meal type. Users can view detailed recipe information, including ingredients and instructions, and save or delete recipes from their favourites. The app also includes user authentication features, allowing users to create accounts, log in, and log out.
 
-Each recipe links to a recipe card with a list of ingredients and instructions and can be saved (and deleted) from the favorites.
+## Technologies Used
 
-The app includes an option to create an account, login and logout.
+- **Frontend:**
+  - React
+  - Redux Toolkit
+  - CSS
+  - React Router Dom
+  - Toastify React
 
-## Overview
+- **API:**
+  - Spoonacular API
 
-The front-end project was created using:
+## Features
 
-- React;
-- Redux Toolkit;
-- CSS;
+### 1. Recipe Browsing and Search
+- **Search Bar:** Users can search for recipes by entering keywords, such as ingredients or dish names.
+- **Filtering:** Recipes can be filtered based on diet and meal type preferences.
+- **Random Search:** Users can discover new recipes through a random search feature.
 
-It also features the following libraries:
+### 2. Recipe Details
+- **Detailed Information:** Each recipe displays detailed information, including title, ingredients, cooking instructions, and an image.
+- **Save to Favorites:** Users can save their favourite recipes for future reference (account required to save ).
+- **Delete from Favorites:** Users can remove recipes from their favourites list.
 
-- Joi for validation;
-- React Router Dom library for links and navigation;
-- Toastify React to handle user notifications;
+### 3. User Authentication
+- **Account Creation:** Users can create accounts by providing a valid email address and password.
+- **Login and Logout:** Registered users can log in and out of their accounts.
 
-Logo and all images are designed with Canva.
+### 4. Error Handling
+- **API Errors:** Effective handling of failed API requests or instances where no results are found.
+- **User-Friendly Messages:** User-friendly error messages are displayed to guide users in case of unexpected situations.
 
-Recipes are provided by the free version of the spoonacular API, which allows a limited number of API calls per day.
+### 5. Styling and User Interface (UI/UX)
+- **Responsive Design:** The application features a responsive and visually appealing UI/UX suitable for both web and mobile devices.
+- **Attractive Layout:** The user interface is designed to be attractive and user-friendly, ensuring a seamless browsing experience.
 
-The back end was built using:
+## Deployment
 
-- Node.js
-- Express.js
-- An SQL database
+Recipe-Finder-Application is deployed and can be accessed at [[Love Food](https://bymj.short.gy/NRoM62)].
 
-Backend files are available in the [backend repository](https://github.com/letizia-sorrentino/recipe-app-backend).
+## Running the Application Locally
 
-## Live Website
+To run the application locally, follow these steps:
 
-[Love Food](https://lovefoodapp.co.uk/)
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and run `npm install` to install dependencies.
+3. Run `npm run dev` to start  the frontend  servers.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-## Available Scripts
 
-`npm run dev`open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Acknowledgements
+
+Special thanks to the creators of the Spoonacular API for providing recipe data.
