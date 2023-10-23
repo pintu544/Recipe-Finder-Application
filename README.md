@@ -40,7 +40,7 @@
 
 ## Deployment
 
-Recipe-Finder-Application is deployed and can be accessed at [[Love Food](https://bymj.short.gy/NRoM62)].
+Recipe-Finder-Application is deployed and can be accessed at [[Recipe-Finder-Application](https://bymj.short.gy/NRoM62)].
 
 ## Running the Application Locally
 
